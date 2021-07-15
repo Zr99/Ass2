@@ -1,4 +1,4 @@
-public class ShowCount implements COMPX202Observer<WordList> {
+public class ShowCount implements Observer<WordList> {
     TextWindow display;
 
     public ShowCount(WordList wordList) {   // Constructor
