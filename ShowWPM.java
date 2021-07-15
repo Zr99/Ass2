@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.List;
 
-public class ShowWPM implements COMPX202Observer<WordList>{
+public class ShowWPM implements Observer<WordList>{
     TextWindow display;
     long startTime;
 
