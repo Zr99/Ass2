@@ -1,4 +1,4 @@
-public class InlineCount implements COMPX202Observer<WordList> {
+public class InlineCount implements Observer<WordList> {
 
     public InlineCount(WordList wordList) {   // Constructor
         wordList.addObserver(this);
