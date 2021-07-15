@@ -1,3 +1,3 @@
-public interface COMPX202Observer<TargetType> {
+public interface Observer<TargetType> {
     public void update(TargetType o);
 }
