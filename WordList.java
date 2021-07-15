@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class WordList extends COMPX202Observable implements Iterable<String> {
+public class WordList extends Observable implements Iterable<String> {
     class WordListIterator implements Iterator<String> {
         private int index;
         public WordListIterator() { index = 0; }
