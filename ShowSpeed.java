@@ -1,4 +1,4 @@
-public class ShowSpeed implements COMPX202Observer<WordList> {
+public class ShowSpeed implements Observer<WordList> {
     TextWindow display;
     long startTime;
 
